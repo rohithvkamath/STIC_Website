@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    background-color: black;
+    font-family:sans-serif;
+}
+:root{
+    --background-color:#2f242c;
+    --font-color:#fff;
+    --primary-color:#502274;
+    --secondary-color:#A42CD6;
+}
+#navbar{
+    margin-bottom:4%;
+}
+.circle-text-1{
+    color: var(--font-color);
+    position: relative;
+	transform: rotate(-50deg);
+    bottom: 150px;
+    right: 10px;
+	z-index: 9999;
+    
+}
+
+h1 span {
+	font-family: 'verdana', sans-serif;
+	height: 300px;
+	position:absolute;
+	width: 20px;
+	left: 0;
+	top: 0;
+	transform-origin: bottom center;
+	font-size: 26px;
+    margin-bottom: 10px;
+}
+.char1 {
+	transform: rotate(0deg);
+}
+.char2 {
+	transform: rotate(5deg); 
+}
+.char3 {
+	transform: rotate(10deg); 
+}
+.char4 {
+	transform: rotate(15deg); 
+}
+.char5 {
+	transform: rotate(20deg); 
+}
+.char6 {
+	transform: rotate(25deg); 
+}
+.char7 {
+	transform: rotate(30deg);
+}
+.char8 {
+	transform: rotate(35deg); 
+}
+.char9 {
+	transform: rotate(40deg); 
+}
+.char10 {
+	transform: rotate(45deg); 
+}
+.char11 {
+	transform: rotate(50deg); 
+}
+.char12 {
+	transform: rotate(55deg); 
+}
+.char13 {
+	transform: rotate(60deg); 
+}
+.char14 {
+	transform: rotate(65deg); 
+}
+.char15 {
+	transform: rotate(70deg); 
+}
+.char16 {
+	transform: rotate(75deg); 
+}
+.char17 {
+	transform: rotate(80deg); 
+}
+.char18 {
+	transform: rotate(85deg); 
+}
+.char19 {
+	transform: rotate(90deg); 
+}
+.char20 {
+	transform: rotate(95deg); 
+}
+.char21 {
+	transform: rotate(100deg); 
+}
+.char22 {
+	transform: rotate(105deg); 
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+.links li {
+    right: 0;
+    display: inline-block;
+    padding: 0px 18px;
+    color: white;
+}
+.links li a{
+    text-decoration: none;
+    color: var(--font-color);
+    font-family: 'Sono',sans-serif;
+    font-weight: 300;
+    transition: 0.3s color;
+    font-family: "Sono",sans-serif;
+}
+.links li a:hover{
+    color: var(--secondary-color) ;
+}
+.brand a{
+    text-decoration: none;
+    color: var(--font-color);
+    font-family: 'Sono',sans-serif;
+    font-weight: 500;
+}
+.front-page{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+}
+.front-page .initial-text span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: var(--font-color);
+    margin: .5rem 0rem;
+    font-family: "Barlow",sans-serif;
+}
+.front-page .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--font-color);
+    font-family: sans-serif;
+    font-size: 4rem;
+    font-weight: 500;
+    font-family:sans-serif;
+}
+.front-page .main-circle{
+    background-color: rgba(0, 0, 0, 0.5);
+    width:450px;
+    height:450px;
+    border-radius: 50%;
+    box-shadow: -10px -10px 30px rgba(4,145,226, 0.5);
+}
+.front-page .main-text{
+    transform: translateY(70%);
+}
+.front-page .ellipse{
+    width: 450px;
+    height: 450px;
+    /* background: linear-gradient(45deg,#502274,#985f91); */
+    /* background-color: var(--background-color); */
+    background-image: url("../images/earth.png") ;
+    background-position-x: 55%;
+    background-position-y:1% ;
+    border-radius: 50%;
+    box-shadow: 10px 10px 30px rgba(4, 145, 226, 0.5); 
+
+   /* border: 2px solid #fff;*/
+    /*transition:ease-in 1s;
+    animation: color .5s infinite alternate ;  */
+}
+ /* @keyframes color {
+    100%{
+        background: linear-gradient(45deg,#a834a8,#0a93ca);
+    }
+    50%{
+        background: linear-gradient(45deg,#0cb67a,#cf8010);
+    }
+}  */
+.front-page .ellipse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--font-color);
+    font-family: "Sono",sans-serif;
+    font-size: 4.2rem;
+    font-weight: 500;
+    text-shadow: 7px 7px 17px rgba(0, 0, 0, 0.5),
+                7px 7px 6px rgba(255, 255, 255, 0.2);
+}
+.front-page .ellipse .main-text span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#particles-js{
+    height: 100vh;
+    width: 100%;
+    z-index: 1000;
+}

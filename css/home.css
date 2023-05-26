@@ -24,7 +24,6 @@ body,html{
 	transform: rotate(-50deg);
     bottom: 150px;
     right: 10px;
-	z-index: 9999;
     
 }
 

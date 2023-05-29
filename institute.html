@@ -11,7 +11,8 @@
     <script class="u-script" type="text/javascript" src="js/institute.js" defer=""></script>
     <meta name="generator" content="Nicepage 5.9.3, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
-    
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
     
     <!-- <script type="application/ld+json">{
 		"@context": "http://schema.org",
@@ -23,13 +24,13 @@
     <meta property="og:type" content="website">
   <meta data-intl-tel-input-cdn-path="intlTelInput/">
 </head>
-  <body class="u-body u-xl-mode" data-lang="en" >
+  <body class="u-body u-xl-mode" data-lang="en" style="background-color: black;">
 
-    <div class="navbar"></div>
+    <div id="nav"></div>
     <!-- <header class="u-clearfix u-header u-image u-header" id="sec-adf3" data-image-width="1920" data-image-height="720"><div class="u-black u-opacity u-opacity-65 u-radius-10 u-shape u-shape-round u-shape-1"></div><h1 class="u-text u-text-white u-text-1">About our Institute</h1></header>
      -->
     
-    <section class="u-clearfix u-section-1" id="sec-65a4" style="margin-top: 15%;">
+    <section class="u-clearfix u-section-1" id="sec-65a4" style="margin-top: 5%;">
       <div class="u-clearfix u-sheet u-sheet-1">
         <img class="u-image u-image-circle u-image-contain u-preserve-proportions u-image-1" src="images/swamy2.png" alt="Sri Sri Sri Dr. Nirmalanandanatha MahaSwamiji">
         <p class="u-align-center u-small-text u-text u-text-variant u-text-1"> Sri Sri Sri Dr. Nirmalanandanatha MahaSwamiji</p>
@@ -39,19 +40,23 @@
         </p>
         <h3 class="u-align-center-md u-align-center-sm u-align-center-xs u-text u-text-3">SJB Institute of Technology</h3>
         <p class="u-align-left u-text u-text-4"> SJBIT is located amidst peace and tranquility and is spread across 13 acres of land with a built-up area of 58967.43 Sqm. SJBIT is committed to personal, social &amp; intellectual growth emphasizing a comprehensive educational programme leading to high academic standards.<br>
-          <br>The BGS and SJB group of Institutions and Hospitals was born out of the educational perception of&nbsp;<span style="font-weight: 700;">His Divine Soul&nbsp; Jagadguru&nbsp;Padmabushana&nbsp;Dr. Sri&nbsp;Sri&nbsp;Sri&nbsp;Balagangadharanatha&nbsp;Mahaswamiji</span>.&nbsp;&nbsp;<br>
+          <br>The BGS and SJB group of Institutions and Hospitals was born out of the educational perception of&nbsp;<span style="font-weight: 700;"><br>His Divine Soul Jagadguru&nbsp;Padmabushana&nbsp;Dr. Sri&nbsp;Sri&nbsp;Sri&nbsp;Balagangadharanatha&nbsp;Mahaswamiji</span>.&nbsp;&nbsp;<br>
           <br>The legacy is now carried over&nbsp;by <span style="font-weight: 700;">
-            <span style="font-weight: 400;">Chief Pontiff &amp;&nbsp;President</span>&nbsp;Sri&nbsp;Sri&nbsp;Sri&nbsp;Dr.&nbsp;Nirmalanandanatha&nbsp;Mahaswamiji
-          </span>&nbsp;of Sri&nbsp;Adichunchanagiri&nbsp;Shikshana&nbsp;Trust&nbsp;®&nbsp;.&nbsp;&nbsp;The BGS and SJB Group of Institutions and Hospitals is effectually headed by our Managing Director, <span style="font-weight: 700;">Revered&nbsp;Sri&nbsp;Sri&nbsp;Dr.&nbsp;Prakashanath&nbsp;Swamiji.</span>
+            <span style="font-weight: 400;">Chief Pontiff &amp;&nbsp;President</span><br>&nbsp;Sri&nbsp;Sri&nbsp;Sri&nbsp;Dr.&nbsp;Nirmalanandanatha&nbsp;Mahaswamiji
+          </span>&nbsp;of Sri&nbsp;Adichunchanagiri&nbsp;Shikshana&nbsp;Trust&nbsp;®&nbsp;.&nbsp;&nbsp;<br>The BGS and SJB Group of Institutions and Hospitals is effectually headed by our Managing Director, <span style="font-weight: 700;">Revered&nbsp;Sri&nbsp;Sri&nbsp;Dr.&nbsp;Prakashanath&nbsp;Swamiji.</span>
           <br>
         </p>
-        <p class="u-align-center u-small-text u-text u-text-variant u-text-5"> Sri Sri Dr. Prakashanatha Swamiji</p>
+        <p class="u-align-center u-small-text u-text u-text-variant u-text-5" style="@media(max-width:728px){margin-bottom:5%;}"> Sri Sri Dr. Prakashanatha Swamiji</p>
         <img class="u-image u-image-circle u-image-4" src="images/sjbit_logo.jpg" alt="" data-image-width="225" data-image-height="225">
       </div>
     </section>
 
 
   <script src="js/script.js"></script>
-  <script>$(function(){$("nav").load("includes/navbar.html");});</script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('#nav').load('includes/navbar.html');
+    });
+  </script>
 </body>
 </html>

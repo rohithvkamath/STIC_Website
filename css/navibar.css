@@ -64,7 +64,7 @@ height:90px;
 }
  
 .navbar a:hover {
-  color: rgb(85, 84, 84);
+  color: #b9e283;
 }
  
 #menu-icon {
@@ -113,7 +113,7 @@ height:90px;
     width: 100%;
     min-height:250px;
     max-height:400px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(0,0,0, 0.5);
     border-bottom: 2px solid rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
     z-index: 99;
